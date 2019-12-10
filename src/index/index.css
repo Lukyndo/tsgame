@@ -12,11 +12,30 @@ body {
     font-size: 12px;
     height: 100%;
     min-height: 476px;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
 }
 
-div{
+
+div {
     border: 1px solid green;
 }
+
+.block {
+    background: #c29900;
+}
+
+.big {
+    width: 100px;
+    height: 100px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    margin: 5px;
+    display: inline-block;
+}
+

@@ -26,7 +26,8 @@ module.exports = (rootDir, {
     devtool: IS_PROD ? '' : 'inline-source-map',
 
     devServer: {
-      contentBase: path.join(__dirname, 'dist', 'index'),
+      contentBase: path.join(__dirname, 'dist'),
+      openPage: '/index',
       open: true,
     },
 
